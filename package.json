@@ -1,0 +1,22 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "Professional README Generator for use by developers when creating projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasongrossman/README-generator.git"
+  },
+  "author": "Jason Grossman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasongrossman/README-generator/issues"
+  },
+  "homepage": "https://github.com/jasongrossman/README-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.1.2"
+  }
+}
