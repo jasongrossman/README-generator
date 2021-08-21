@@ -1,5 +1,6 @@
 // TODO: Include packages needed for this application
-const inquirer = require("inquirer");
+const inquirer = require('inquirer');
+const fs = require('fs');
 const { writeFile, copyFile } = require("./utils/generateMarkdown.js");
 
 
@@ -51,6 +52,12 @@ const questions = () => {
             type: "input",
             name: "test-instructions",
             message: "Please input test instructions here:"
+        },
+        {
+            type: "checkbox",
+            name: "license",
+            message: "What license will you choose for your project?",
+            choices: ["Academic Free License v3.0", "Apache", "MIT", "Mozilla Public License 2.0", "Open Software License 3.0"]
         }
     ])
 };
@@ -69,3 +76,4 @@ function init() {
 // Function call to initialize app
 init()
     .then(questions);
+    
