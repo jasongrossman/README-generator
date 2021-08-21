@@ -83,10 +83,9 @@ const questions = () => {
             type: "checkbox",
             name: "license",
             message: "What license will you choose for your project?",
-            choices: ["Academic Free License v3.0", "Apache", "MIT", "Mozilla Public License 2.0", "Open Software License 3.0"]
+            choices: ["Academic Free License v3.0", "Apache", "MIT", "Mozilla Public License 2.0", "Perl"]
         }
     ])
-
 };
 
 // TODO: Create a function to write README file
