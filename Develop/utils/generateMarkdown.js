@@ -1,8 +1,6 @@
 
 const questions = require('../../index');
 
-let licenseLink = "";
-
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
@@ -24,6 +22,7 @@ function generateMarkdown(data) {
   const chosenLicenseBadge = renderLicenseBadge(data.license); 
     console.log("badge URL", chosenLicenseBadge);
     return `# ${data.title}  
+    ${chosenLicenseBadge}
   # Table of Contents:
     1. [Project Description](#Description)
     2. [Instructions for Installation](#Instructions-for-Installation)
@@ -32,7 +31,7 @@ function generateMarkdown(data) {
     5. [Testing](#For-testing-follow-these-instructions)
     6. [License](#License)
     7. [Questions](#Questions)
-  ${chosenLicenseBadge}
+
   ## Description
     ${data.description}
   ## Instructions for Installation
