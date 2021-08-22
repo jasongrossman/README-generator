@@ -83,7 +83,7 @@ const questions = () => {
             type: "checkbox",
             name: "license",
             message: "What license will you choose for your project?",
-            choices: ["Academic Free License v3.0", "Apache", "MIT", "Mozilla Public License 2.0", "Perl"]
+            choices: ["Apache", "MIT", "Mozilla Public License 2.0", "Perl"]
         }
     ])
 };
