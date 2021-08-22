@@ -21,7 +21,7 @@ function renderLicenseBadge(license) {
 function generateMarkdown(data) {
   const chosenLicenseBadge = renderLicenseBadge(data.license); 
     console.log("badge URL", chosenLicenseBadge);
-    return `# ${data.title}  
+    return `# ${data.title}
     ${chosenLicenseBadge}
   # Table of Contents:
     1. [Project Description](#Description)

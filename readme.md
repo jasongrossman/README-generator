@@ -1,4 +1,4 @@
-# wrgnw  
+# Node.js Assignment
     [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
   # Table of Contents:
     1. [Project Description](#Description)
@@ -10,18 +10,18 @@
     7. [Questions](#Questions)
 
   ## Description
-    wegonwqerg
+    It's a cool project
   ## Instructions for Installation
-    wrgonwrh
+    none 
   ## Information on how to use the application
-    wrginwrh
+    Use at your own discretion
   ## Contribution Guidelines
-    wrgjrwg
+    there are none
   ## For testing follow these instructions
-    rwegojwrg
+    test away
   ## License
-    Mozilla Public License 2.0
+    MIT
   ## Questions
-    Created by: awregi  
-    Link to github profile can be found at: github.com/awregi  
-    please reach out to: ergn
+    Created by: jasongrossman  
+    Link to github profile can be found at: github.com/jasongrossman  
+    please reach out to: jasongrossman2@gmail.com
