@@ -25,11 +25,15 @@ function generateMarkdown(data) {
     console.log("badge URL", chosenLicenseBadge);
     return `# ${data.title}  
   # Table of Contents:
-    1. [Project Description](#description:)
-    2. [Instructions for Installation](#Instructions for Installation:)
-    5. [Licensed By](#license)
+    1. [Project Description](#Description:)
+    2. [Instructions for Installation](#Instructions-for-Installation:)
+    3. [How to Use](#Information-on-how-to-use-the-application:)
+    4. [Contribution Guidelines](#Contribution-Guidelines:)
+    5. [Testing](#For-testing-follow-these-instructions:)
+    6. [License](#License:)
+    7. [Questions](#Questions:)
   ${chosenLicenseBadge}
-  # Project Description:  <a name="description"></a>
+  # Description
     ${data.description}
   # Instructions for Installation:  
     ${data.instructions}
@@ -37,9 +41,9 @@ function generateMarkdown(data) {
     ${data.usage}
   # Contribution Guidelines:  
     ${data.contribution}
-  # For testing, follow these instructions:  
+  # For testing follow these instructions:  
     ${data.testing}
-  # Licensed by:  <a name = "license></a>
+  # License:
     ${data.license}
   # Questions:  
     Created by: ${data.username}  
