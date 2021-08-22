@@ -25,27 +25,27 @@ function generateMarkdown(data) {
     console.log("badge URL", chosenLicenseBadge);
     return `# ${data.title}  
   # Table of Contents:
-    1. [Project Description](#Description:)
-    2. [Instructions for Installation](#Instructions-for-Installation:)
-    3. [How to Use](#Information-on-how-to-use-the-application:)
-    4. [Contribution Guidelines](#Contribution-Guidelines:)
-    5. [Testing](#For-testing-follow-these-instructions:)
-    6. [License](#License:)
-    7. [Questions](#Questions:)
+    1. [Project Description](#Description)
+    2. [Instructions for Installation](#Instructions-for-Installation)
+    3. [How to Use](#Information-on-how-to-use-the-application)
+    4. [Contribution Guidelines](#Contribution-Guidelines)
+    5. [Testing](#For-testing-follow-these-instructions)
+    6. [License](#License)
+    7. [Questions](#Questions)
   ${chosenLicenseBadge}
-  # Description
+  ## Description
     ${data.description}
-  # Instructions for Installation:  
+  ## Instructions for Installation
     ${data.instructions}
-  # Information on how to use the application:  
+  ## Information on how to use the application
     ${data.usage}
-  # Contribution Guidelines:  
+  ## Contribution Guidelines
     ${data.contribution}
-  # For testing follow these instructions:  
+  ## For testing follow these instructions
     ${data.testing}
-  # License:
+  ## License
     ${data.license}
-  # Questions:  
+  ## Questions
     Created by: ${data.username}  
     Link to github profile can be found at: github.com/${data.username}  
     please reach out to: ${data.email}
